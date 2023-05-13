@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="stylesheet" href="./js/main.js"></script>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		
+		.navbar-vertical {
+			width: 200px;
+			height: 100%;
+			position: fixed;
+			background-color: #f8f8f8;
+			border: 1px solid #e7e7e7;
+		}
+
+		.navbar-brand {
+			padding: 15px;
+			font-size: 18px;
+			height: auto;
+		}
+
+		.navbar-vertical .navbar-nav > li > a {
+			padding: 15px;
+			font-size: 16px;
+			color: #333;
+		}
+
+		.navbar-vertical .navbar-nav > li > a:hover,
+		.navbar-vertical .navbar-nav > li > a:focus {
+			background-color: #e7e7e7;
+			color: #333;
+		}
+
+		 .navbar-vertical .navbar-nav > .active > a,
+		.navbar-vertical .navbar-nav > .active > a:hover,
+		.navbar-vertical .navbar-nav > .active > a:focus {
+			background-color: #e7e7e7;
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-vertical">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">Home</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="/login">Login</a></li>
+					<li><a href="/register">Sign up</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="background-container">
+		<h1 class="welcome-heading">WELCOME</h1>
+		<div>
+			<img src="https://img.freepik.com/free-vector/face-recognition-biometric-scan-cyber-security-technology-blue-tone_53876-119532.jpg?w=996&t=st=1681199831~exp=1681200431~hmac=bfbbcdc1fe07f0fb41024a960444321c271e5d46877543970dbfb3e9e231e333" class="welcome-image"/>
+			<p class="welome-paragraph">CCTV FACIAL RECOGNITION</p>
+		</div>
+	</div>
+</body>
+</html>
