@@ -14,11 +14,11 @@
 
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="/">LOGOUT</a>
+			<a class="navbar-brand" href="/">Logout</a>
 		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<div>
-					<button class="button" style="text-align:center;" onclick="window.location.href = 'http://localhost:3000';">watch DEMO</button>
+					<button class="btn btn-danger" style="text-align:center;" onclick="window.location.href = 'http://localhost:3000';">watch DEMO</button>
 				</div>
 			</ul>
 		  </div>
@@ -38,10 +38,12 @@
             </div>
         </div>
 	</div>
-	<form action="/upload" method="post" enctype="multipart/form-data">
-		<input type="file" name="file">
-		<input type="submit" value="Upload">
-	</form>
+	<div class ="upload-button">
+		<form action="/upload" method="post" enctype="multipart/form-data">
+			<input type="file" name="file">
+			<input type="submit" value="Upload">
+		</form>
+	</div>
 	  
 
 
