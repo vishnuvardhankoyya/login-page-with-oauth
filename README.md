@@ -46,7 +46,7 @@ This project is licensed under the [MIT License] (LICENSE). You are free to use,
 
 ## Contact
 
-For any questions or inquiries, please reach out to [email@example.com](mailto:email@koyyavishnuvardhan@gmail.com.com).
+For any questions or inquiries, please reach out to [email@example.com] (mailto:email@koyyavishnuvardhan@gmail.com).
 
 
 
