@@ -13,7 +13,10 @@ const upload = multer({
     } else {
       cb(new Error('File type not supported!'), false);
     }
-  }
+  },
+  limits: {
+    fileSize: 5 * 1024 * 1024, // 5MB limit
+  },
 });
 
 // Route to handle file upload
@@ -32,4 +35,3 @@ router.post('/', upload.single('file'), async (req, res, next) => {
 });
 
 module.exports = router;
-
